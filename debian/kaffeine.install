@@ -1,0 +1,10 @@
+debian/tmp/usr/bin
+debian/tmp/usr/lib/*.la
+debian/tmp/usr/lib/*.so.*
+debian/tmp/usr/share/doc/
+debian/tmp/usr/share/man/
+debian/tmp/usr/share/apps/
+debian/tmp/usr/share/icons/
+debian/tmp/usr/share/applications/
+debian/tmp/usr/share/locale/
+debian/tmp/usr/share/mimelnk/

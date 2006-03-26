@@ -1,0 +1,50 @@
+Source: kaffeine
+Section: kde
+Priority: optional
+Maintainer: Zack Cerza <zcerza@coe.neu.edu>
+Uploaders: Riku Voipio <riku.voipio@iki.fi>, Zack Cerza <zcerza@coe.neu.edu>
+Build-Depends: debhelper (>= 4.2.0), cdbs, automake1.8, autoconf, libqt3-compat-headers, kdelibs4-dev (>= 4:3.2.3-2), libxine-dev (>= 1-rc5-1), linux-kernel-headers, libgstreamer-plugins0.8-dev, g++-3.4 [arm m68k hppa]
+Standards-Version: 3.6.1.1
+
+Package: kaffeine
+Architecture: any
+Depends: ${shlibs:Depends}, kaffeine-xine | kaffeine-gstreamer
+Description: versatile media player for KDE 3
+ Kaffeine is a media player for KDE. While it supports multiple player
+ engines, its default engine is Xine, giving Kaffeine a wide variety of
+ supported media types and letting Kaffeine access CDs, DVDs, and
+ network streams easily.
+ .
+ Kaffeine can keep track of multiple playlists simultaneously, and supports
+ autoloading of subtitles files for use while playing video.
+ .
+ Authors: Jürgen Kofler and Christophe Thommeret
+ Homepage: http://kaffeine.sourceforge.net
+
+Package: kaffeine-gstreamer
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: GStreamer engine for kaffeine media player
+ Kaffeine is a media player for KDE. While it supports multiple player
+ engines, its default engine is Xine, giving Kaffeine a wide variety of
+ supported media types and letting Kaffeine access CDs, DVDs, and
+ network streams easily.
+ .
+ This package provides the GStreamer playing engine for Kaffeine.
+ .
+ Authors: Jürgen Kofler and Christophe Thommeret
+ Homepage: http://kaffeine.sourceforge.net
+
+Package: kaffeine-xine
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Xine engine for kaffeine media player
+ Kaffeine is a media player for KDE. While it supports multiple player
+ engines, its default engine is Xine, giving Kaffeine a wide variety of
+ supported media types and letting Kaffeine access CDs, DVDs, and
+ network streams easily.
+ .
+ This package provides the Xine playing engine for Kaffeine.
+ .
+ Authors: Jürgen Kofler and Christophe Thommeret
+ Homepage: http://kaffeine.sourceforge.net

@@ -1,0 +1,13 @@
+Index: kaffeine/kaffeine.cpp
+===================================================================
+--- kaffeine/kaffeine.cpp	(revision 46)
++++ kaffeine/kaffeine.cpp	(working copy)
+@@ -902,7 +902,7 @@
+ 	b = config->readBoolEntry("Original Aspect", false);
+ 	m_originalAspect->setChecked(b);
+ 
+-	m_embedSystemTray = config->readBoolEntry("Embed in System Tray", true);
++	m_embedSystemTray = config->readBoolEntry("Embed in System Tray", false);
+ 	if (m_embedSystemTray)
+ 		slotSystemTray(m_embedSystemTray);
+ 	m_osdDuration = config->readNumEntry("OSD Duration", 5);
