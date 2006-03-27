@@ -1,0 +1,4 @@
+# It isn't a library or a development package and no other packages uses
+# libkmediapart and libkaffeineaudioencoder. kaffeine needs them and maybe
+# a split can happen later.
+kaffeine: package-name-doesnt-match-sonames libkmediapart0 libkaffeineaudioencoder0

@@ -1,28 +1,12 @@
 #!/usr/bin/make -f
 
-GCC4_ICES_HERE := arm m68k hppa
-DEB_HOST_ARCH_CPU ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_CPU)
-
-ifneq (,$(filter $(DEB_HOST_ARCH_CPU),$(GCC4_ICES_HERE)))
-	export CC=gcc-3.4
-	export CPP=cpp-3.4
-	export CXX=g++-3.4
-endif
-
 include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/rules/simple-patchsys.mk
-# For some reason this is broken, at least for me.
-#include /usr/share/cdbs/1/class/kde.mk
-include /usr/share/cdbs/1/class/autotools.mk
+include /usr/share/cdbs/1/class/kde.mk
+#include /usr/share/cdbs/1/rules/simple-patchsys.mk
 
-DEB_CONFIGURE_EXTRA_FLAGS += --disable-rpath
+DEB_INSTALL_MANPAGES_kaffeine := debian/man/kaffeine.1
 
-DEB_MAKE_INSTALL_TARGET := install DESTDIR=$(CURDIR)/debian/tmp/
-DEB_COMPRESS_EXCLUDE := .docbook
-
-binary-post-install/kaffeine::
-	mkdir debian/kaffeine/usr/share/pixmaps
-	cp debian/kaffeine.xpm debian/kaffeine/usr/share/pixmaps/
-	mkdir debian/kaffeine/usr/share/doc/kde
-	mv debian/kaffeine/usr/share/doc/HTML debian/kaffeine/usr/share/doc/kde
+install/kaffeine::
+	install -D -p -m0644 debian/kaffeine.xpm debian/kaffeine/usr/share/pixmaps/kaffeine.xpm
+	install -D -p -m0644 debian/kaffeine.lintian-overrides debian/kaffeine/usr/share/lintian/overrides/kaffeine
 
