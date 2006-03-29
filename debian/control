@@ -9,6 +9,8 @@ Standards-Version: 3.6.2
 Package: kaffeine
 Architecture: any
 Depends: ${shlibs:Depends}
+Conflicts: kaffeine-xine, kaffeine-gstreamer
+Replaces: kaffeine (<< 0.8.0), kaffeine-xine, kaffeine-gstreamer
 Description: versatile media player for KDE
  Kaffeine is a media player for KDE. While it supports multiple player
  engines, its default engine is Xine, giving Kaffeine a wide variety of
