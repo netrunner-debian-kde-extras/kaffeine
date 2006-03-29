@@ -3,12 +3,12 @@ Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Riku Voipio <riku@debian.org>, Fathi Boudra <fboudra@free.fr>, Mark Purcell <msp@debian.org>
-Build-Depends: cdbs, debhelper (>= 5.0.0), kdelibs4-dev, libcdparanoia0-dev, libgstreamer-plugins0.8-dev, libqt3-compat-headers, libxine-dev
+Build-Depends: cdbs, debhelper (>= 5.0.0), kdelibs4-dev, libcdparanoia0-dev, libqt3-compat-headers, libxine-dev
 Standards-Version: 3.6.2
 
 Package: kaffeine
 Architecture: any
-Depends: ${shlibs:Depends}, kaffeine-xine (= ${Source-Version}) | kaffeine-gstreamer (= ${Source-Version})
+Depends: ${shlibs:Depends}
 Description: versatile media player for KDE
  Kaffeine is a media player for KDE. While it supports multiple player
  engines, its default engine is Xine, giving Kaffeine a wide variety of
@@ -17,32 +17,6 @@ Description: versatile media player for KDE
  .
  Kaffeine can keep track of multiple playlists simultaneously, and supports
  autoloading of subtitles files for use while playing video.
- .
- Homepage: http://kaffeine.sourceforge.net
-
-Package: kaffeine-xine
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: Xine engine for kaffeine media player
- Kaffeine is a media player for KDE. While it supports multiple player
- engines, its default engine is Xine, giving Kaffeine a wide variety of
- supported media types and letting Kaffeine access CDs, DVDs, and
- network streams easily.
- .
- This package provides the Xine playing engine for Kaffeine.
- .
- Homepage: http://kaffeine.sourceforge.net
-
-Package: kaffeine-gstreamer
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: GStreamer engine for kaffeine media player
- Kaffeine is a media player for KDE. While it supports multiple player
- engines, its default engine is Xine, giving Kaffeine a wide variety of
- supported media types and letting Kaffeine access CDs, DVDs, and
- network streams easily.
- .
- This package provides the GStreamer playing engine for Kaffeine.
  .
  Homepage: http://kaffeine.sourceforge.net
 

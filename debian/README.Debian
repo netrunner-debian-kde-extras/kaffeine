@@ -1,7 +1,7 @@
 kaffeine for Debian
 -------------------
 
-The Gstreamer player-part is experimental
-The Lame Mp3 encoding plugin isn't compiled.
+The Gstreamer support is experimental and has been disabled.
+Due to patents problems, the Lame Mp3 encoding plugin isn't available.
 
  -- Fathi Boudra <fboudra@free.fr>, Mon, 27 Mar 2006 09:44:19 +0200

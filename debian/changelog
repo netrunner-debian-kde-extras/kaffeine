@@ -1,6 +1,10 @@
 kaffeine (0.8-1) unstable; urgency=low
 
   * New upstream release
+  * Clean up control
+  * Added libcdparanoia0-dev to Build-Depends
+  * Disabled gstreamer support
+  * Merged kaffeine-xine and kaffeine-gstreamer in kaffeine package
 
  -- Fathi Boudra <fboudra@free.fr>  Mon, 27 Mar 2006 09:44:19 +0200
 
