@@ -20,7 +20,7 @@ Description: versatile media player for KDE
  Kaffeine can keep track of multiple playlists simultaneously, and supports
  autoloading of subtitles files for use while playing video.
  .
- Homepage: http://kaffeine.sourceforge.net
+  Homepage: http://kaffeine.sourceforge.net
 
 Package: kaffeine-dbg
 Section: devel
