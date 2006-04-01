@@ -2,15 +2,15 @@ Source: kaffeine
 Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Riku Voipio <riku@debian.org>, Fathi Boudra <fboudra@free.fr>, Mark Purcell <msp@debian.org>
-Build-Depends: cdbs, debhelper (>= 5.0.0), kdelibs4-dev, libcdparanoia0-dev, libqt3-compat-headers, libxine-dev
+Uploaders: Riku Voipio <riku.voipio@iki.fi>, Fathi Boudra <fboudra@free.fr>, Mark Purcell <msp@debian.org>
+Build-Depends: cdbs (>= 0.4.37), debhelper (>= 5.0.0), kdelibs4-dev, libcdparanoia0-dev, libqt3-compat-headers, libxine-dev
 Standards-Version: 3.6.2
 
 Package: kaffeine
 Architecture: any
 Depends: ${shlibs:Depends}
 Conflicts: kaffeine-xine, kaffeine-gstreamer
-Replaces: kaffeine (<< 0.8.0), kaffeine-xine, kaffeine-gstreamer
+Replaces: kaffeine-xine, kaffeine-gstreamer
 Description: versatile media player for KDE
  Kaffeine is a media player for KDE. While it supports multiple player
  engines, its default engine is Xine, giving Kaffeine a wide variety of

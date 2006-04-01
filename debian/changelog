@@ -1,12 +1,17 @@
 kaffeine (0.8-1) unstable; urgency=low
 
+  [ Fathi Boudra ]
   * New upstream release
   * Clean up control
   * Added libcdparanoia0-dev to Build-Depends
   * Disabled gstreamer support
   * Merged kaffeine-xine in kaffeine package
 
- -- Fathi Boudra <fboudra@free.fr>  Mon, 27 Mar 2006 09:44:19 +0200
+  [ Riku Voipio ]
+  * The -dbg package feature needs cdbs (>= 0.4.37)
+  * no need to replace kaffeine in kaffeine package
+
+ -- Riku Voipio <riku.voipio@iki.fi>  Sat,  1 Apr 2006 22:09:02 +0300
 
 kaffeine (0.7.1-1.3) unstable; urgency=low
 
