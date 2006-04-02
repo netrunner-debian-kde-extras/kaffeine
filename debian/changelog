@@ -3,9 +3,10 @@ kaffeine (0.8-1) unstable; urgency=low
   [ Fathi Boudra ]
   * New upstream release, Closes: #360393
   * Clean up control
-  * Added libcdparanoia0-dev to Build-Depends
-  * Disabled gstreamer support, Closes: #346252, #328786
-  * Merged kaffeine-xine in kaffeine package
+  * Add libcdparanoia0-dev to Build-Depends
+  * Add libxtst-dev to Build-Depends (thanks to Jonathan Riddell)
+  * Disable gstreamer support, Closes: #346252, #328786
+  * Merge kaffeine-xine in kaffeine package
 
   [ Riku Voipio ]
   * The -dbg package feature needs cdbs (>= 0.4.37)
@@ -13,7 +14,6 @@ kaffeine (0.8-1) unstable; urgency=low
   * Remove build-dependency on g++-3.4 on selected archs, Closes: #342974
   * Remove build-dependency on linux-kernel-headers, Closes: #328550
   * Documentation link is correct now, Closes: #336738
-  
   * The new upstream version fixes a range of problems:
   * Audio busy problem, and failure to fall back to another
     audio sink: Closes: #328788, #336306, #358234
