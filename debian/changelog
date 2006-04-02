@@ -1,15 +1,24 @@
 kaffeine (0.8-1) unstable; urgency=low
 
   [ Fathi Boudra ]
-  * New upstream release
+  * New upstream release, Closes: #360393
   * Clean up control
   * Added libcdparanoia0-dev to Build-Depends
-  * Disabled gstreamer support
+  * Disabled gstreamer support, Closes: #346252, #328786
   * Merged kaffeine-xine in kaffeine package
 
   [ Riku Voipio ]
   * The -dbg package feature needs cdbs (>= 0.4.37)
-  * no need to replace kaffeine in kaffeine package
+  * Acknowledge NMU's: Closes: #329010, #329143, #329177, #328738
+  * Remove build-dependency on g++-3.4 on selected archs, Closes: #342974
+  * Remove build-dependency on linux-kernel-headers, Closes: #328550
+  * Documentation link is correct now, Closes: #336738
+  
+  * The new upstream version fixes a range of problems:
+  * Audio busy problem, and failure to fall back to another
+    audio sink: Closes: #328788, #336306, #358234
+  * Keyboard shortcuts no longer crash after playback, Closes: #329178
+  * Xine engine configuration dialog is now scrollable, Closes: #344093
 
  -- Riku Voipio <riku.voipio@iki.fi>  Sat,  1 Apr 2006 22:09:02 +0300
 
