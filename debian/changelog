@@ -1,4 +1,4 @@
-kaffeine (0.8-1) unstable; urgency=low
+kaffeine (0.8-1) experimental; urgency=low
 
   [ Fathi Boudra ]
   * New upstream release, Closes: #360393
@@ -11,6 +11,7 @@ kaffeine (0.8-1) unstable; urgency=low
   [ Riku Voipio ]
   * The -dbg package feature needs cdbs (>= 0.4.37)
   * Acknowledge NMU's: Closes: #329010, #329143, #329177, #328738
+    (Thanks to Adeodato Simó and LaMont Jones !)
   * Remove build-dependency on g++-3.4 on selected archs, Closes: #342974
   * Remove build-dependency on linux-kernel-headers, Closes: #328550
   * Documentation link is correct now, Closes: #336738
@@ -19,8 +20,9 @@ kaffeine (0.8-1) unstable; urgency=low
     audio sink: Closes: #328788, #336306, #358234
   * Keyboard shortcuts no longer crash after playback, Closes: #329178
   * Xine engine configuration dialog is now scrollable, Closes: #344093
+  * Upload to experimental since 0.8.1 is coming this week
 
- -- Riku Voipio <riku.voipio@iki.fi>  Sat,  1 Apr 2006 22:09:02 +0300
+ -- Riku Voipio <riku.voipio@iki.fi>  Mon,  3 Apr 2006 23:16:16 +0300
 
 kaffeine (0.7.1-1.3) unstable; urgency=low
 
