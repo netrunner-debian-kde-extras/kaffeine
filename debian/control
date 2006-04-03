@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Riku Voipio <riku.voipio@iki.fi>, Fathi Boudra <fboudra@free.fr>, Mark Purcell <msp@debian.org>
-Build-Depends: cdbs (>= 0.4.37), debhelper (>= 5.0.0), kdelibs4-dev, libcdparanoia0-dev, libqt3-compat-headers, libxine-dev, libxtst-dev
+Build-Depends: cdbs (>= 0.4.37), debhelper (>= 5.0.0), kdelibs4-dev, libcdparanoia0-dev, libxine-dev, libxtst-dev
 Standards-Version: 3.6.2
 
 Package: kaffeine

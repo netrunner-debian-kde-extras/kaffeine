@@ -1,3 +1,12 @@
+kaffeine (0.8.1-1) unstable; urgency=low
+
+  [ Fathi Boudra ]
+  * New upstream release
+  * Remove patch 10_gstreamer_service_menu.diff merged upstream
+  * Remove libqt3-compat-headers from Build-Depends
+
+ -- Fathi Boudra <fboudra@free.fr>  Mon,  3 Apr 2006 23:59:25 +0200
+
 kaffeine (0.8-1) experimental; urgency=low
 
   [ Fathi Boudra ]
