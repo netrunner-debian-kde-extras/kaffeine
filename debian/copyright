@@ -31,7 +31,67 @@ Copyright for googlefetcher code:
 Copyright for xine post plugin handling:
    (C) 2004-2005 Miguel Freitas <miguel@cetuc.puc-rio.br>
 
-License:
+Copyright for ca_zap:
+   (C) 2004-2005 Manu Abraham <manu@kromtek.com>
+   (C) 2006 Andrew de Quincey <adq_dvb@lidskialf.net>
+
+Copyright for libdvbfe:
+   (C) 2005 Manu Abraham <manu@kromtek.com>
+   (C) 2005 Andrew de Quincey <adq_dvb@lidskialf.net>
+   (C) 2005 Kenneth Aafloy <kenneth@linuxtv.org>
+
+Copyright for libdvbca:
+   (C) 2006 Andrew de Quincey <adq_dvb@lidskialf.net>
+
+Copyright for libdvbdemux:
+   (C) 2005 Andrew de Quincey <adq_dvb@lidskialf.net>
+
+Copyright for libdvbnet:
+   (C) 2005 Andrew de Quincey <adq_dvb@lidskialf.net>
+
+Copyright for libdvben50221:
+   (C) 2004-2005 Manu Abraham <manu@kromtek.com>
+   (C) 2006 Andrew de Quincey <adq_dvb@lidskialf.net>
+   
+Copyright for en50221 encoder:
+   (C) 2004-2005 Manu Abraham <manu@kromtek.com>
+   (C) 2005 Julian Scheel <julian@jusst.de>
+   (C) 2006 Andrew de Quincey <adq_dvb@lidskialf.net>
+
+Copyright for libdvbmisc:
+   (C) 2005 Manu Abraham <manu@kromtek.com>
+
+Copyright for crc32 calculation routines:
+   (C) 2005 by Andrew de Quincey <adq_dvb@lidskialf.net>
+
+Copyright for libucsi (section and descriptor parser):
+   (C) 2005 Kenneth Aafloy <kenneth@linuxtv.org>
+   (C) 2005 Andrew de Quincey <adq_dvb@lidskialf.net>
+   (C) 2005 Patrick Boettcher <pb@linuxtv.org>
+
+Copyright for dvbcam:
+   (C) 2006 by Christoph Pfister <christophpfister@gmail.com>
+
+dvbcam code is based on ca_zap licensed under LGPL:
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this library; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+On Debian systems, the complete text of the GNU Lesser General
+Public License can be found in `/usr/share/common-licenses/LGPL'.
+
+Kaffeine is licensed under GPL-2:
 
    This package is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
