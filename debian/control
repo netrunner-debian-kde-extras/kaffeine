@@ -8,7 +8,7 @@ Standards-Version: 3.6.2
 
 Package: kaffeine
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, hdparm
 Conflicts: kaffeine-xine, kaffeine-gstreamer
 Replaces: kaffeine-xine, kaffeine-gstreamer
 Description: versatile media player for KDE
