@@ -10,4 +10,5 @@ DEB_INSTALL_MANPAGES_kaffeine := debian/kaffeine.1
 install/kaffeine::
 	install -D -p -m0644 debian/kaffeine.xpm debian/kaffeine/usr/share/pixmaps/kaffeine.xpm
 	install -D -p -m0644 debian/kaffeine.lintian-overrides debian/kaffeine/usr/share/lintian/overrides/kaffeine
+	install -D -p -m0755 debian/install-css.sh debian/kaffeine/usr/share/doc/kaffeine/install-css.sh
 
