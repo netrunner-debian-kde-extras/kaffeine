@@ -1,3 +1,14 @@
+kaffeine (0.8.1-3) unstable; urgency=low
+
+  [ Fathi Boudra ]
+  * Updated copyright file according to GFDL documentations
+  * Added hdparm to kaffeine Depends (Closes: #289895)
+  * Added informations about css and region setting in README.Debian
+  * Added install-css script taken from libdvdread3 package
+  * Removed x-mplayer2.desktop shipped by kdelibs (Closes: #372514)
+
+ -- Fathi Boudra <fboudra@free.fr>  Sat, 10 Jun 2006 00:25:04 +0200
+
 kaffeine (0.8.1-2) unstable; urgency=low
 
   * Requires libxine-dev (>=1.1.1-2), various archs have build empty
