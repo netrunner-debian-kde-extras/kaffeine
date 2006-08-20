@@ -1,7 +1,7 @@
 kaffeine (0.8.2-beta1-1) experimental; urgency=low
 
   [ Fathi Boudra ]
-  * New upstream release:
+  * New upstream release (Closes: #366993):
     * DVB: cicam support for HLCI and LLCI interfaces
     * Systray: reversed mouse wheel behaviour
     * Playlist: added a KURLComboBox to file browser
