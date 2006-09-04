@@ -9,6 +9,8 @@ kaffeine (0.8.2-beta1-1) experimental; urgency=low
     * fixed: reduced minimum window size
     * Playlist: autoselect subtitle when unique
   * Update copyright file
+  * Add patch to fix kaffeine_part crash, thanks to Olivier Trichet
+    (Closes: #338756)
 
  -- Fathi Boudra <fboudra@free.fr>  Mon, 24 Apr 2006 18:03:17 +0200
 
