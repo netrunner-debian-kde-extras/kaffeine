@@ -1,3 +1,9 @@
+kaffeine (0.8.2-1) UNRELEASED; urgency=low
+
+  * (NOT RELEASED YET) New upstream release
+
+ -- Mark Purcell <msp@debian.org>  Tue, 12 Sep 2006 21:33:13 +0100
+
 kaffeine (0.8.2~beta1-1) experimental; urgency=low
 
   [ Fathi Boudra ]
