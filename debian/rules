@@ -2,6 +2,7 @@
 
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/kde.mk
+include /usr/share/cdbs/1/rules/simple-patchsys.mk
 
 DEB_CONFIGURE_EXTRA_FLAGS := --without-gstreamer --without-lame
 DEB_DESTDIR = $(CURDIR)/debian/kaffeine/
