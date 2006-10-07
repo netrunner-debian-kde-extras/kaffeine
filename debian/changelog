@@ -1,13 +1,26 @@
+kaffeine (0.8.2-2) unstable; urgency=low
+
+  * Kaffeine refuses to start completely (Closes: #390829)
+
+ -- Mark Purcell <msp@debian.org>  Sun,  8 Oct 2006 09:59:13 +1000
+
 kaffeine (0.8.2-1) unstable; urgency=low
 
   [ Mark Purcell ]
-  * Update debian/watch
+  * Update debian/watch & ~beta1
+  * New upstream release
 
   [ Fathi Boudra ]
-  * New upstream release (Closes: #366993)
+  * New upstream release (Closes: #366993):
+    * DVB: cicam support for HLCI and LLCI interfaces
+    * Systray: reversed mouse wheel behaviour
+    * Playlist: added a KURLComboBox to file browser
+    * DVB: fixed fast zap lock
+    * fixed: reduced minimum window size
+    * Playlist: autoselect subtitle when unique
   * Update copyright file
-  * Add patch to fix xine_part crash, merged upstream.
-    Thanks to Olivier Trichet (Closes: #338756)
+  * Add patch to fix kaffeine_part crash, thanks to Olivier Trichet
+    (Closes: #338756)
 
  -- Mark Purcell <msp@debian.org>  Tue, 12 Sep 2006 21:33:30 +0100
 

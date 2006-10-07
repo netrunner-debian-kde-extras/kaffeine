@@ -1,0 +1,152 @@
+From nive@nivalis.org Sun Oct  8 07:05:11 2006
+Return-path: <pkg-kde-extras-bounces@lists.alioth.debian.org>
+Envelope-to: debian@purcell.id.au
+Delivery-date: Sat, 07 Oct 2006 22:33:21 +0100
+Received: from master.debian.org ([70.103.162.29])
+	by bristol.purcell.id.au with esmtp (Exim 4.52)
+	id 1GWJnI-00054B-BD
+	for debian@purcell.id.au; Sat, 07 Oct 2006 22:33:21 +0100
+Received: from haydn.debian.org ([192.25.206.28])
+	by master.debian.org with esmtp (Exim 4.50)
+	id 1GWJmz-0006Ew-Bs; Sat, 07 Oct 2006 21:32:57 +0000
+Received: from localhost ([127.0.0.1]:48155 helo=haydn.debian.org)
+	by haydn.debian.org with esmtp (Exim 4.50)
+	id 1GWJmw-0007Dt-Sy; Sat, 07 Oct 2006 21:32:55 +0000
+Received: from spohr.debian.org ([140.211.166.43]:35477 ident=Debian-exim)
+	by haydn.debian.org with esmtp (Exim 4.50) id 1GWJmj-0006cW-5K
+	for pkg-kde-extras@lists.alioth.debian.org;
+	Sat, 07 Oct 2006 21:32:46 +0000
+Received: from debbugs by spohr.debian.org with local (Exim 4.50)
+	id 1GWJZO-0002RX-Bh; Sat, 07 Oct 2006 14:18:54 -0700
+X-Loop: owner@bugs.debian.org
+Resent-From: Olivier Trichet <nive@nivalis.org>
+Resent-To: debian-bugs-dist@lists.debian.org
+Resent-CC: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Resent-Date: Sat, 07 Oct 2006 21:18:53 +0000
+Resent-Message-ID: <handler.390829.B390829.116025516617324@bugs.debian.org>
+X-Debian-PR-Message: report 390829
+X-Debian-PR-Package: kaffeine
+X-Debian-PR-Keywords: 
+X-Debian-PR-Source: kaffeine
+Received: via spool by 390829-submit@bugs.debian.org id=B390829.116025516617324
+	(code B ref 390829); Sat, 07 Oct 2006 21:18:53 +0000
+Received: (at 390829) by bugs.debian.org; 7 Oct 2006 21:06:06 +0000
+Received: from ble59-3-82-225-192-42.fbx.proxad.net ([82.225.192.42]
+	helo=bruine.nivalis.org) by spohr.debian.org with esmtp (Exim 4.50)
+	id 1GWJMR-0002hx-60; Sat, 07 Oct 2006 14:05:31 -0700
+Received: by bruine.nivalis.org (Postfix, from userid 1000)
+	id EB0CC240D0; Sat,  7 Oct 2006 23:05:12 +0200 (CEST)
+From: Olivier Trichet <nive@nivalis.org>
+To: 390829@bugs.debian.org,
+ control@bugs.debian.org
+Date: Sat, 7 Oct 2006 23:05:11 +0200
+User-Agent: KMail/1.9.4
+MIME-Version: 1.0
+Content-Type: Multipart/Mixed;
+  boundary="Boundary-00=_IaBKFp2aIWPEZEO"
+Message-Id: <200610072305.12162@nivalis.org>
+Resent-Sender: Debian BTS <debbugs@bugs.debian.org>
+Resent-Date: Sat, 07 Oct 2006 14:18:54 -0700
+X-BeenThere: pkg-kde-extras@lists.alioth.debian.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: nive@nivalis.org,
+ 390829@bugs.debian.org
+List-Id: "List for the maintainers of stuff under pkd-kde/kde-extras."
+	<pkg-kde-extras.lists.alioth.debian.org>
+List-Unsubscribe: <http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-extras>,
+	<mailto:pkg-kde-extras-request@lists.alioth.debian.org?subject=unsubscribe>
+List-Archive: <http://lists.alioth.debian.org/pipermail/pkg-kde-extras>
+List-Post: <mailto:pkg-kde-extras@lists.alioth.debian.org>
+List-Help: <mailto:pkg-kde-extras-request@lists.alioth.debian.org?subject=help>
+List-Subscribe: <http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-extras>,
+	<mailto:pkg-kde-extras-request@lists.alioth.debian.org?subject=subscribe>
+Sender: pkg-kde-extras-bounces@lists.alioth.debian.org
+Errors-To: pkg-kde-extras-bounces@lists.alioth.debian.org
+X-SA-Exim-Connect-IP: 70.103.162.29
+X-SA-Exim-Rcpt-To: debian@purcell.id.au
+X-SA-Exim-Mail-From: pkg-kde-extras-bounces@lists.alioth.debian.org
+X-Spam-Checker-Version: SpamAssassin 3.1.4 (2006-07-26) on debian
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.5 required=3.0 tests=BAYES_00,FORGED_RCVD_HELO,
+	UNPARSEABLE_RELAY autolearn=ham version=3.1.4
+X-Spam-Report: 
+	*  0.1 FORGED_RCVD_HELO Received: contains a forged HELO
+	*  0.0 UNPARSEABLE_RELAY Informational: message has unparseable relay
+	*      lines
+	* -2.6 BAYES_00 BODY: Bayesian spam probability is 0 to 1%
+	*      [score: 0.0000]
+Subject: [Pkg-kde-extras] Bug#390829: kaffeine: Kaffeine refuses to start
+	when restored from session
+X-SA-Exim-Version: 4.2 (built Thu, 03 Mar 2005 10:44:12 +0100)
+X-SA-Exim-Scanned: Yes (on bristol.purcell.id.au)
+X-Length: 6207
+X-KMail-EncryptionState:  
+X-KMail-SignatureState:  
+X-KMail-MDN-Sent:  
+Content-Length: 1804
+Status: R
+X-UID: 745
+X-Keywords:                                                                                                    
+X-Status: NT
+
+--Boundary-00=_IaBKFp2aIWPEZEO
+Content-Type: text/plain;
+  charset="utf-8"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+tags 390829 patch
+stop
+
+Please use the attached patch (already in upstream SVN) and upload before=
+=20
+the Etch freeze.
+By the way, I think this bug deserve the severity "serious" and not=20
+only "important", because once someone's kaffeine have been restored from=
+=20
+session and stays in the background, it will never again be usable until=20
+the user explicitly kill the kaffeine instance which is in the=20
+background... and I don't think an average user will think to do that=C2=A0=
+!
+
+bye,
+Olivier
+
+--Boundary-00=_IaBKFp2aIWPEZEO
+Content-Type: text/x-diff; charset="utf-8";
+	name="kaffeine-0.8.2-session_background_restored.patch"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+	filename="kaffeine-0.8.2-session_background_restored.patch"
+
+diff -Nru kaffeine-0.8.2.orig/kaffeine/src/main.cpp kaffeine-0.8.2/kaffeine/src/main.cpp
+--- kaffeine-0.8.2.orig/kaffeine/src/main.cpp	2006-10-07 20:42:29.000000000 +0200
++++ kaffeine-0.8.2/kaffeine/src/main.cpp	2006-10-07 20:42:53.000000000 +0200
+@@ -56,8 +56,8 @@
+ 	 * FIXME: session management make lot of troubles; because kaffeine starts more than one process?
+ 	 * disabled for the moment ...
+ 	 */
+-	if (isRestored())
+-		return 0;
++//	if (isRestored())
++//		return 0;
+ 
+ 	if (kaffeine)
+ 		kaffeine->processArgs();
+
+--Boundary-00=_IaBKFp2aIWPEZEO
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+pkg-kde-extras mailing list
+pkg-kde-extras@lists.alioth.debian.org
+http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-extras
+
+--Boundary-00=_IaBKFp2aIWPEZEO--
+
+
+
