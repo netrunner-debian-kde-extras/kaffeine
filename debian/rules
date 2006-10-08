@@ -16,3 +16,9 @@ install/kaffeine::
 	# file shipped by kdelibs
 	rm -f debian/kaffeine/usr/share/mimelnk/application/x-mplayer2.desktop
 
+
+get-orig-source:
+	 @@dh_testdir
+	 @@[ -d ../tarballs/. ]
+	 @@dpatch-get-origtargz ../tarballs
+
