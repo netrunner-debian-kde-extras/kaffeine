@@ -5,10 +5,10 @@ It was downloaded from http://kaffeine.sourceforge.net
 
 Copyright Holders:
    (C) 2006 Christophe Thommeret <hftom@free.fr>
-   (C) 2004-2005 by Jurgen Kofler <kaffeine@gmx.net>
+   (C) 2004-2005 Jurgen Kofler <kaffeine@gmx.net>
 
 Copyright for kmultitabbar:
-   (C) 2001-2003 by Joseph Wenninger <jowenn@kde.org>
+   (C) 2001-2003 Joseph Wenninger <jowenn@kde.org>
 
 Copyright for kaffeine_export copied from kat:
    (C) 2005 Laurent Montel <montel@kde.org>
@@ -25,8 +25,18 @@ Copyright for cddb code:
 Copyright for playlistitem and subtitle file import code:
    (C) 2004-2005 Giorgos Gousios <gousiosg@cs.man.ac.uk>
 
+Copyright for position slider:
+   (C) 2004-2005 Giorgos Gousios <gousiosg@cs.man.ac.uk>
+   (C) 2004-2005 Jürgen Kofler <kaffeine@gmx.net>
+   (C) 2004-2005 Miguel Freitas <miguel@cetuc.puc-rio.br>
+
+Copyriht for xine postprocessing filters wrapper:
+   (C) 2003-2005 Jürgen Kofler <kaffeine@gmx.net>
+   (C) 2003-2005 Miguel Freitas <miguel@cetuc.puc-rio.br>
+
 Copyright for googlefetcher code:
    (C) 2004 Nathan Toone <nathan@toonetown.com>
+   (C) 2006 Christophe Thommeret <hftom@free.fr>
 
 Copyright for xine post plugin handling:
    (C) 2004-2005 Miguel Freitas <miguel@cetuc.puc-rio.br>
@@ -68,6 +78,15 @@ Copyright for libucsi (section and descriptor parser):
    (C) 2005 Kenneth Aafloy <kenneth@linuxtv.org>
    (C) 2005 Andrew de Quincey <adq_dvb@lidskialf.net>
    (C) 2005 Patrick Boettcher <pb@linuxtv.org>
+
+Copyright for logo animation licensed under LGPL:
+   (C) Dieter Zander
+
+Copyright for all coffee bean icons licensed under LGPL:
+   (C) 2003-2004 Jürgen Kofler <kaffeine@gmx.net>
+
+Copyright for record icons, taken from nuvola icon set licensed under LGPL:
+   (C) by David Vignoni
 
 Copyright for dvbcam:
    (C) 2006 by Christoph Pfister <christophpfister@gmail.com>
