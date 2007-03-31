@@ -1,0 +1,142 @@
+From Petr.Salinger@seznam.cz Wed Dec 20 01:34:58 2006
+Return-path: <pkg-kde-extras-bounces+msp=debian.org@lists.alioth.debian.org>
+Envelope-to: debian@purcell.id.au
+Delivery-date: Tue, 19 Dec 2006 17:06:43 +0000
+Received: from master.debian.org ([70.103.162.29])
+	by bristol.purcell.id.au with esmtp (Exim 4.63)
+	(envelope-from <pkg-kde-extras-bounces+msp=debian.org@lists.alioth.debian.org>)
+	id 1GwiQC-0007WV-5T
+	for debian@purcell.id.au; Tue, 19 Dec 2006 17:06:43 +0000
+Received: from alioth.debian.org ([217.196.43.134])
+	by master.debian.org with esmtp (Exim 4.50)
+	id 1GwhHW-0004XT-E9
+	for debian@purcell.id.au; Tue, 19 Dec 2006 15:53:30 +0000
+Received: from localhost ([127.0.0.1] helo=alioth.debian.org)
+	by alioth.debian.org with esmtp (Exim 4.50)
+	id 1GwhHV-0002Vq-NW
+	for msp@debian.org; Tue, 19 Dec 2006 16:53:29 +0100
+Received: from spohr.debian.org ([140.211.166.43] ident=Debian-exim)
+	by alioth.debian.org with esmtp (Exim 4.50) id 1GwhHP-0002VY-MY
+	for pkg-kde-extras@lists.alioth.debian.org;
+	Tue, 19 Dec 2006 16:53:29 +0100
+Received: from debbugs by spohr.debian.org with local (Exim 4.50)
+	id 1GwhCN-0000m9-J8; Tue, 19 Dec 2006 07:48:11 -0800
+X-Loop: owner@bugs.debian.org
+Resent-From: Petr Salinger <Petr.Salinger@seznam.cz>
+Resent-To: debian-bugs-dist@lists.debian.org
+Resent-CC: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Resent-Date: Tue, 19 Dec 2006 15:48:06 +0000
+Resent-Message-ID: <handler.403749.B.116653859416079@bugs.debian.org>
+X-Debian-PR-Message: report 403749
+X-Debian-PR-Package: kaffeine
+X-Debian-PR-Keywords: patch
+X-Debian-PR-Source: kaffeine
+Received: via spool by submit@bugs.debian.org id=B.116653859416079
+	(code B ref -1); Tue, 19 Dec 2006 15:48:06 +0000
+Received: (at submit) by bugs.debian.org; 19 Dec 2006 14:29:54 +0000
+Received: from relay.felk.cvut.cz ([147.32.80.7])
+	by spohr.debian.org with esmtp (Exim 4.50) id 1Gwfo5-0004k8-Kf
+	for submit@bugs.debian.org; Tue, 19 Dec 2006 06:19:02 -0800
+Received: from sci.felk.cvut.cz (Debian-exim@sci.felk.cvut.cz [147.32.83.100])
+	by relay.felk.cvut.cz (8.13.8/8.13.8) with ESMTP id kBJEIDHJ089162
+	for <submit@bugs.debian.org>; Tue, 19 Dec 2006 15:18:13 +0100 (CET)
+	(envelope-from Petr.Salinger@seznam.cz)
+Received: from salinger (helo=localhost)
+	by sci.felk.cvut.cz with local-esmtp (Exim 4.50) id 1Gwg3W-0003Hy-QY
+	for submit@bugs.debian.org; Tue, 19 Dec 2006 15:34:58 +0100
+Date: Tue, 19 Dec 2006 15:34:58 +0100 (CET)
+From: Petr Salinger <Petr.Salinger@seznam.cz>
+X-X-Sender: salinger@sci.felk.cvut.cz
+To: submit@bugs.debian.org
+Message-ID: <Pine.LNX.4.62.0612191528210.12313@sci.felk.cvut.cz>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN;
+  charset=US-ASCII;
+  format=flowed
+X-FELK-MailScanner-Information: 
+X-FELK-MailScanner: Found to be clean
+X-FELK-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.767, required 5, ALL_TRUSTED -1.80, BAYES_00 -2.60,
+	SARE_FREE_WEBM_CZSEZNA 0.25, SPF_SOFTFAIL 1.38)
+X-FELK-MailScanner-From: petr.salinger@seznam.cz
+Delivered-To: submit@bugs.debian.org
+Resent-Sender: Debian BTS <debbugs@bugs.debian.org>
+Resent-Date: Tue, 19 Dec 2006 07:48:11 -0800
+X-BeenThere: pkg-kde-extras@lists.alioth.debian.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: Petr Salinger <Petr.Salinger@seznam.cz>,
+ 403749@bugs.debian.org
+List-Id: "List for the maintainers of stuff under pkd-kde/kde-extras."
+	<pkg-kde-extras.lists.alioth.debian.org>
+List-Unsubscribe: <http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-extras>,
+	<mailto:pkg-kde-extras-request@lists.alioth.debian.org?subject=unsubscribe>
+List-Archive: <http://lists.alioth.debian.org/pipermail/pkg-kde-extras>
+List-Post: <mailto:pkg-kde-extras@lists.alioth.debian.org>
+List-Help: <mailto:pkg-kde-extras-request@lists.alioth.debian.org?subject=help>
+List-Subscribe: <http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-extras>,
+	<mailto:pkg-kde-extras-request@lists.alioth.debian.org?subject=subscribe>
+Sender: pkg-kde-extras-bounces+msp=debian.org@lists.alioth.debian.org
+Errors-To: pkg-kde-extras-bounces+msp=debian.org@lists.alioth.debian.org
+X-SA-Exim-Connect-IP: 70.103.162.29
+X-SA-Exim-Rcpt-To: debian@purcell.id.au
+X-SA-Exim-Mail-From: pkg-kde-extras-bounces+msp=debian.org@lists.alioth.debian.org
+X-Spam-Checker-Version: SpamAssassin 3.1.7 (2006-10-05) on debian
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=2.0 tests=BAYES_00,UNPARSEABLE_RELAY 
+	autolearn=ham version=3.1.7
+X-Spam-Report: 
+	*  0.0 UNPARSEABLE_RELAY Informational: message has unparseable relay
+	*      lines
+	* -2.6 BAYES_00 BODY: Bayesian spam probability is 0 to 1%
+	*      [score: 0.0000]
+Subject: [Pkg-kde-extras] Bug#403749: kaffeine: FTBFS on GNU/kFreeBSD
+X-SA-Exim-Version: 4.2.1 (built Mon, 27 Mar 2006 13:42:28 +0200)
+X-SA-Exim-Scanned: Yes (on bristol.purcell.id.au)
+X-Length: 5663
+X-KMail-EncryptionState:  
+X-KMail-SignatureState:  
+X-KMail-MDN-Sent:  
+X-UID: 1449
+Status: RO
+X-Status: OC
+
+Package: kaffeine
+Severity: important
+Version: 0.8.3-1
+Tags: patch
+
+
+Hi,
+
+the current version fails to build on GNU/kFreeBSD.
+
+It needs small fix, see bellow.
+
+It would also be nice if you can ask upstream
+to include this changes.
+
+Thanks in advance
+
+                         Petr
+
+
+--- kaffeine/src/kaffeine.cpp~
++++ kaffeine/src/kaffeine.cpp
+@@ -25,6 +25,8 @@
+
+  #include "kaffeine.h"
+
++#include <kdeversion.h>
++#include <kapplication.h>
+  #include <dcopref.h>
+  #include <kkeydialog.h>
+  #include <kfiledialog.h>
+
+
+
+_______________________________________________
+pkg-kde-extras mailing list
+pkg-kde-extras@lists.alioth.debian.org
+http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-extras
+

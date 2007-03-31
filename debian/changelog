@@ -1,3 +1,10 @@
+kaffeine (0.8.3-2) UNRELEASED; urgency=low
+
+  * Thanks Petr. Add debian/patchs/Bug403749.diff to build on
+    GNU/kFreeBSD (Closes: Bug#403749).
+
+ -- Mark Purcell <msp@debian.org>  Fri,  5 Jan 2007 23:37:35 +1100
+
 kaffeine (0.8.3-1) unstable; urgency=low
 
   * New upstream release
