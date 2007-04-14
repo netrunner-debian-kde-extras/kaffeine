@@ -3,8 +3,11 @@ kaffeine (0.8.4-1) unstable; urgency=low
   * New upstream release
   * debian/patches/Bug403749.diff encorporated upstream
   * Build-Depends: libogg-dev
+  * Add /usr/share/applications/kde/kaffeine-iso.desktop
+    - play DVD ISO files on filesystem (rather than in DVD drive)
+    automatically (Closes: #402382)
 
- -- Mark Purcell <msp@debian.org>  Sat, 14 Apr 2007 09:37:43 +0100
+ -- Mark Purcell <msp@debian.org>  Sat, 14 Apr 2007 09:44:53 +0100
 
 kaffeine (0.8.3-2) UNRELEASED; urgency=low
 
