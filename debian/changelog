@@ -1,3 +1,9 @@
+kaffeine (0.8.4-1) UNRELEASED; urgency=low
+
+  * (NOT RELEASED YET) New upstream release
+
+ -- Mark Purcell <msp@debian.org>  Sat, 14 Apr 2007 09:21:37 +0100
+
 kaffeine (0.8.3-2) UNRELEASED; urgency=low
 
   * Thanks Petr. Add debian/patchs/Bug403749.diff to build on
