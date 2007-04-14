@@ -13,7 +13,7 @@ install/kaffeine::
 	install -D -p -m0644 debian/kaffeine.xpm debian/kaffeine/usr/share/pixmaps/kaffeine.xpm
 	install -D -p -m0644 debian/kaffeine.lintian-overrides debian/kaffeine/usr/share/lintian/overrides/kaffeine
 	install -D -p -m0755 debian/install-css.sh debian/kaffeine/usr/share/doc/kaffeine/install-css.sh
-	install -D -p -m0755 debian/kaffeine-iso.desktop debian/kaffeine/usr/share/applications/kde/kaffeine-iso.desktop
+	install -D -p -m0644 debian/kaffeine-iso.desktop debian/kaffeine/usr/share/applications/kde/kaffeine-iso.desktop
 
 	# file shipped by kdelibs
 	rm -f debian/kaffeine/usr/share/mimelnk/application/x-mplayer2.desktop
