@@ -17,6 +17,8 @@ install/kaffeine::
 
 	# file shipped by kdelibs
 	rm -f debian/kaffeine/usr/share/mimelnk/application/x-mplayer2.desktop
+	# Bogus, shouldn't be shipped..
+	rm -f debian/kaffeine/usr/share/doc/kde/HTML/en/doc/CMakeLists.txt
 
 get-orig-source:
 	 @@dh_testdir
