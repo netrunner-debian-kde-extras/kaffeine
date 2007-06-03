@@ -1,8 +1,9 @@
-kaffeine (0.8.4-3) UNRELEASED; urgency=low
+kaffeine (0.8.4-3) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * Add libxcb1-dev and chrpath build-dependency.
+  * Add libxine1-ffmpeg and libxine1-kde recommends. (Closes: #427085)
 
- -- Mark Purcell <msp@debian.org>  Thu, 19 Apr 2007 06:16:33 +1000
+ -- Fathi Boudra <fboudra@free.fr>  Sun, 03 Jun 2007 22:10:26 +0200
 
 kaffeine (0.8.4-2) unstable; urgency=low
 

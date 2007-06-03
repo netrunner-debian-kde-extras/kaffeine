@@ -20,6 +20,15 @@ install/kaffeine::
 	# Bogus, shouldn't be shipped..
 	rm -f debian/kaffeine/usr/share/doc/kde/HTML/en/doc/CMakeLists.txt
 
+binary-install/kaffeine::
+	# disable rpath flag not honored
+	chrpath -d debian/kaffeine/usr/bin/kaffeine
+	chrpath -d debian/kaffeine/usr/lib/libkaffeineaudioencoder.so.0.0.1
+	chrpath -d debian/kaffeine/usr/lib/libkaffeinedvbplugin.so.0.0.1
+	chrpath -d debian/kaffeine/usr/lib/libkaffeinepart.so
+	chrpath -d debian/kaffeine/usr/lib/kde3/libxinepart.so
+	chrpath -d debian/kaffeine/usr/lib/kde3/libkaffeineoggvorbis.so
+
 get-orig-source:
 	 @@dh_testdir
 	 @@[ -d ../tarballs/. ]
