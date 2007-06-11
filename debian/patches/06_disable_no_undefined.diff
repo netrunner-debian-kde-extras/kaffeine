@@ -1,0 +1,19 @@
+diff -Nur kaffeine-0.8.4/admin/acinclude.m4.in kaffeine-0.8.4.new/admin/acinclude.m4.in
+--- kaffeine-0.8.4/admin/acinclude.m4.in	2007-06-06 21:53:38.000000000 +0200
++++ kaffeine-0.8.4.new/admin/acinclude.m4.in	2007-06-06 21:54:31.000000000 +0200
+@@ -1689,15 +1689,6 @@
+        KDE_USE_CLOSURE_TRUE="#"
+        KDE_USE_CLOSURE_FALSE=""
+        KDE_NO_UNDEFINED=""
+-       case $host in
+-         *-*-linux-gnu)
+-           KDE_CHECK_COMPILER_FLAG([Wl,--no-undefined],
+-                [KDE_CHECK_COMPILER_FLAG([Wl,--allow-shlib-undefined],
+-		[KDE_NO_UNDEFINED="-Wl,--no-undefined -Wl,--allow-shlib-undefined"],
+-		[KDE_NO_UNDEFINED=""])],
+-	    [KDE_NO_UNDEFINED=""])
+-           ;;
+-       esac
+   fi
+   AC_SUBST(KDE_USE_CLOSURE_TRUE)
+   AC_SUBST(KDE_USE_CLOSURE_FALSE)

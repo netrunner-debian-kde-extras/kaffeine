@@ -8,3 +8,4 @@ Name[en_US]=kaffeine
 StartupNotify=true
 Terminal=false
 Type=Application
+NoDisplay=true
