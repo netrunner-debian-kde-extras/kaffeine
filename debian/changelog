@@ -1,3 +1,10 @@
+kaffeine (0.8.4-4) unstable; urgency=low
+
+  * Remove libxine1-kde recommends.
+  * Raise libxine1-ffmpeg relationship. (Closes: #426247)
+
+ -- Fathi Boudra <fboudra@free.fr>  Mon, 04 Jun 2007 22:17:33 +0200
+
 kaffeine (0.8.4-3) unstable; urgency=low
 
   * Add libxcb1-dev and chrpath build-dependency.
