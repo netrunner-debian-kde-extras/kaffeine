@@ -2,6 +2,7 @@ kaffeine (0.8.4-5) UNRELEASED; urgency=low
 
   * Update desktop file for iso. It should be hidden. (Closes: #420127)
     Thanks to Michael Biebl.
+  * Add version to xine build dependency.
 
  -- Fathi Boudra <fboudra@free.fr>  Mon, 11 Jun 2007 21:35:32 +0200
 
