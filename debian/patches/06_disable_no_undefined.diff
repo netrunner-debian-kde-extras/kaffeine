@@ -1,6 +1,5 @@
-diff -Nur kaffeine-0.8.4/admin/acinclude.m4.in kaffeine-0.8.4.new/admin/acinclude.m4.in
---- kaffeine-0.8.4/admin/acinclude.m4.in	2007-06-06 21:53:38.000000000 +0200
-+++ kaffeine-0.8.4.new/admin/acinclude.m4.in	2007-06-06 21:54:31.000000000 +0200
+--- a/admin/acinclude.m4.in
++++ b/admin/acinclude.m4.in
 @@ -1689,15 +1689,6 @@
         KDE_USE_CLOSURE_TRUE="#"
         KDE_USE_CLOSURE_FALSE=""

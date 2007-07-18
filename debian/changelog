@@ -1,8 +1,9 @@
-kaffeine (0.8.4-6) UNRELEASED; urgency=low
+kaffeine (0.8.4-6) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * Add patch to add AM_INIT_AUTOMAKE to configure.in.in. It fixes broken
+    modulename after relibtoolization. (Closes: #432112)
 
- -- Mark Purcell <msp@debian.org>  Fri, 06 Jul 2007 10:50:16 +0100
+ -- Fathi Boudra <fboudra@free.fr>  Wed, 18 Jul 2007 18:01:13 +0200
 
 kaffeine (0.8.4-5) unstable; urgency=low
 
