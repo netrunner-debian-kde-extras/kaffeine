@@ -1,3 +1,9 @@
+kaffeine (0.8.5-2) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Mark Purcell <msp@debian.org>  Sat, 28 Jul 2007 23:27:38 +0100
+
 kaffeine (0.8.5-1) unstable; urgency=low
 
   * New upstream release.
