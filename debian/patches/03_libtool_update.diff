@@ -1,6 +1,6 @@
 diff -Nrua a/admin/libtool.m4.in b/admin/libtool.m4.in
---- a/admin/libtool.m4.in	2006-11-04 02:41:45.000000000 +0100
-+++ b/admin/libtool.m4.in	2007-07-18 18:18:19.000000000 +0200
+--- a/admin/libtool.m4.in	2007-06-03 15:55:41.000000000 +0200
++++ b/admin/libtool.m4.in	2007-07-28 20:01:05.000000000 +0200
 @@ -1,28 +1,13 @@
  # libtool.m4 - Configure libtool for the host system. -*-Autoconf-*-
 -## Copyright 1996, 1997, 1998, 1999, 2000, 2001
@@ -844,7 +844,7 @@ diff -Nrua a/admin/libtool.m4.in b/admin/libtool.m4.in
 -  libsuff=
 -  if test "x$LINUX_64_MODE" = x64; then
 -    # Some platforms are per default 64-bit, so there's no /lib64
--    if test -d /lib64; then
+-    if test -d /lib64 -a ! -h /lib64; then
 -      libsuff=64
 -    fi
 -  fi
@@ -4346,8 +4346,8 @@ diff -Nrua a/admin/libtool.m4.in b/admin/libtool.m4.in
  AC_MSG_RESULT([$SED])
  ])
 diff -Nrua a/admin/ltmain.sh b/admin/ltmain.sh
---- a/admin/ltmain.sh	2006-11-04 02:41:44.000000000 +0100
-+++ b/admin/ltmain.sh	2007-07-18 18:18:19.000000000 +0200
+--- a/admin/ltmain.sh	2007-06-03 15:55:41.000000000 +0200
++++ b/admin/ltmain.sh	2007-07-28 20:01:05.000000000 +0200
 @@ -1,8 +1,8 @@
  # ltmain.sh - Provide generalized library-building support services.
  # NOTE: Changing this file will not affect anything until you rerun configure.

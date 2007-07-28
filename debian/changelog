@@ -1,3 +1,9 @@
+kaffeine (0.8.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fboudra@free.fr>  Sat, 28 Jul 2007 19:59:41 +0200
+
 kaffeine (0.8.4-6) unstable; urgency=low
 
   * Add patch to add AM_INIT_AUTOMAKE to configure.in.in. It fixes broken

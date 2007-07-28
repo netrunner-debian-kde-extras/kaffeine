@@ -1,12 +1,12 @@
-diff -Nur kaffeine-0.8.4/configure.in.in kaffeine-0.8.4.new/configure.in.in
---- kaffeine-0.8.4/configure.in.in	2007-04-13 16:54:53.000000000 +0200
-+++ kaffeine-0.8.4.new/configure.in.in	2007-07-18 21:47:04.000000000 +0200
+diff -Nur kaffeine-0.8.5/configure.in.in kaffeine-0.8.5.new/configure.in.in
+--- kaffeine-0.8.5/configure.in.in	2007-04-13 16:54:53.000000000 +0200
++++ kaffeine-0.8.5.new/configure.in.in	2007-07-18 21:47:04.000000000 +0200
 @@ -1,4 +1,11 @@
  #MIN_CONFIG(3.3)
 +
 +KDE_ENABLE_HIDDEN_VISIBILITY
 +
-+AM_INIT_AUTOMAKE(kaffeine, 0.8.4)
++AM_INIT_AUTOMAKE(kaffeine, 0.8.5)
 +
 +AM_MAINTAINER_MODE
 +
