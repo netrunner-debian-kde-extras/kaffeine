@@ -20,7 +20,7 @@ install/kaffeine::
 	# Bogus, shouldn't be shipped..
 	rm -f debian/kaffeine/usr/share/doc/kde/HTML/en/doc/CMakeLists.txt
 
-get-orig-source:
+get-orig-source-dpatch:
 	 @@dh_testdir
 	 @@[ -d ../tarballs/. ]
 	 @@dpatch-get-origtargz ../tarballs
