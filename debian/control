@@ -11,7 +11,7 @@ Standards-Version: 3.7.2
 
 Package: kaffeine
 Architecture: any
-Depends: ${shlibs:Depends}, libxine1-ffmpeg, hdparm
+Depends: ${shlibs:Depends}, libxine1-ffmpeg, hdparm [linux-any]
 Conflicts: kaffeine-xine, kaffeine-gstreamer
 Replaces: kaffeine-xine, kaffeine-gstreamer
 Description: versatile media player for KDE
