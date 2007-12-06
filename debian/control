@@ -2,7 +2,7 @@ Source: kaffeine
 Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Riku Voipio <riku.voipio@iki.fi>, Fathi Boudra <fboudra@free.fr>,
+Uploaders: Riku Voipio <riku.voipio@iki.fi>, Fathi Boudra <fabo@debian.org>,
  Mark Purcell <msp@debian.org>
 Build-Depends: cdbs, debhelper (>= 5), automake1.9, kdelibs4-dev,
  libcdparanoia0-dev, libogg-dev, libxine-dev (>= 1.1.8), libxcb1-dev,
