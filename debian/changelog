@@ -1,10 +1,18 @@
-kaffeine (0.8.5-2) UNRELEASED; urgency=low
+kaffeine (0.8.5-2) unstable; urgency=low
 
   * Restrict dependency on hdparm only for linux architectures.
     Thanks to Uwe Hermann and Petr Salinger (Closes: #438848)
   * Add libxine1-x dependency. (Closes: #448084)
+  * Remove Riku Voipio from Uploaders field.
+  * Update my e-mail address.
+  * Bump Standards-Version to 3.7.3.
+  * Use Homepage field.
+  * Update menu file to latest Debian menu policy.
+  * Switch to quilt patch system.
+  * Build with --as-needed linker flag.
+  * Update copyright file. Refer to common-licenses directory.
 
- -- Fathi Boudra <fboudra@free.fr>  Sat, 10 Nov 2007 10:40:33 +0100
+ -- Fathi Boudra <fabo@debian.org>  Sun, 30 Dec 2007 17:44:40 +0100
 
 kaffeine (0.8.5-1) unstable; urgency=low
 

@@ -1,6 +1,5 @@
-diff -Nrua a/admin/libtool.m4.in b/admin/libtool.m4.in
---- a/admin/libtool.m4.in	2007-06-03 15:55:41.000000000 +0200
-+++ b/admin/libtool.m4.in	2007-07-28 20:01:05.000000000 +0200
+--- a/admin/libtool.m4.in
++++ b/admin/libtool.m4.in
 @@ -1,28 +1,13 @@
  # libtool.m4 - Configure libtool for the host system. -*-Autoconf-*-
 -## Copyright 1996, 1997, 1998, 1999, 2000, 2001
@@ -31,7 +30,7 @@ diff -Nrua a/admin/libtool.m4.in b/admin/libtool.m4.in
 +## modifications, as long as this notice is preserved.
  
 -# serial 47 AC_PROG_LIBTOOL
-+# serial 51 Debian 1.5.24-1 AC_PROG_LIBTOOL
++# serial 51 Debian 1.5.24-2 AC_PROG_LIBTOOL
  
  
  # AC_PROVIDE_IFELSE(MACRO-NAME, IF-PROVIDED, IF-NOT-PROVIDED)
@@ -4345,9 +4344,8 @@ diff -Nrua a/admin/libtool.m4.in b/admin/libtool.m4.in
 +AC_SUBST([SED])
  AC_MSG_RESULT([$SED])
  ])
-diff -Nrua a/admin/ltmain.sh b/admin/ltmain.sh
---- a/admin/ltmain.sh	2007-06-03 15:55:41.000000000 +0200
-+++ b/admin/ltmain.sh	2007-07-28 20:01:05.000000000 +0200
+--- a/admin/ltmain.sh
++++ b/admin/ltmain.sh
 @@ -1,8 +1,8 @@
  # ltmain.sh - Provide generalized library-building support services.
  # NOTE: Changing this file will not affect anything until you rerun configure.
@@ -4382,7 +4380,7 @@ diff -Nrua a/admin/ltmain.sh b/admin/ltmain.sh
 +
 +PROGRAM=ltmain.sh
 +PACKAGE=libtool
-+VERSION="1.5.24 Debian 1.5.24-1"
++VERSION="1.5.24 Debian 1.5.24-2"
 +TIMESTAMP=" (1.1220.2.456 2007/06/24 02:25:32)"
 +
 +# Be Bourne compatible (taken from Autoconf:_AS_BOURNE_COMPATIBLE).

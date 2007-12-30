@@ -1,6 +1,6 @@
 ?package(kaffeine):\
 	needs="X11"\
-	section="Apps/Sound"\
+	section="Applications/Video"\
 	hints="KDE"\
 	title="Kaffeine"\
 	command="/usr/bin/kaffeine"\
