@@ -21,6 +21,9 @@ install/kaffeine::
 	# Bogus, shouldn't be shipped..
 	rm -f debian/kaffeine/usr/share/doc/kde/HTML/en/doc/CMakeLists.txt
 
+clean::
+	find po -type f -name '*.gmo' | xargs rm -f
+
 get-orig-source-dpatch:
 	 @@dh_testdir
 	 @@[ -d ../tarballs/. ]
