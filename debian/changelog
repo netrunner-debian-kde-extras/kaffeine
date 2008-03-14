@@ -1,3 +1,9 @@
+kaffeine (0.8.6-2) unstable; urgency=low
+
+  * Build with -fasynchronous-unwind-tables flags. (Closes: #469594)
+
+ -- Fathi Boudra <fabo@debian.org>  Fri, 14 Mar 2008 03:40:35 +0100
+
 kaffeine (0.8.6-1) unstable; urgency=low
 
   * New upstream release. This is the last KDE3 release. (Closes: #462339)
