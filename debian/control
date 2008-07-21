@@ -6,7 +6,7 @@ Uploaders: Fathi Boudra <fabo@debian.org>, Mark Purcell <msp@debian.org>
 Build-Depends: cdbs, debhelper (>= 5), quilt, automake1.9, kdelibs4-dev,
  libcdparanoia0-dev, libogg-dev, libxine-dev (>= 1.1.9), libxcb1-dev,
  libxtst-dev
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 Homepage: http://kaffeine.sourceforge.net
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/kde-extras/kaffeine/trunk
 Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/kaffeine/trunk
