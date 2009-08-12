@@ -3,6 +3,6 @@
 include /usr/share/pkg-kde-tools/makefiles/1/debhelper/kde.mk
 
 %:
-	dh --with --dbg-package=kaffeine-dbg $@
+	dh --dbg-package=kaffeine-dbg $@
 
 .PHONY: override_dh_auto_test
