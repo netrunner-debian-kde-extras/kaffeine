@@ -1,141 +1,94 @@
-This package was debianized by Zack Cerza <zcerza@coe.neu.edu> on
-Sun, 28 Mar 2004 22:55:09 -0500.
+This package was debianized by:
 
-It was downloaded from http://kaffeine.sourceforge.net
+    Fathi Boudra <fabo@debian.org> on Wed, 12 Aug 2009 02:23:50 +0200
 
-Upstream authors:
-   Christophe Thommeret <hftom@free.fr>
-   Christoph Pfister <christophpfister@gmail.com>
-   Jurgen Kofler <kaffeine@gmx.net>
+It was downloaded from:
 
-Copyright for kmultitabbar:
-   © 2001-2003 Joseph Wenninger <jowenn@kde.org>
+    http://kaffeine.kde.org
 
-Copyright for kaffeine_export copied from kat:
-   © 2005 Laurent Montel <montel@kde.org>
+Upstream Author:
 
-Copyright for ts2pes copied from mjpegtools for
-the Siemens Fujitsu DVB PCI card:
-   © 2000-2001 Marcus Metzler <mocm@metzlerbros.de>
+    Christoph Pfister <christophpfister@gmail.com>
 
-Copyright for ts2rtp copied from dvbstream:
-   © 2001-2002 Dave Chapman <dave@dchapman.org>
+Copyright:
 
-Copyright for cddb code:
-   © 2000 Michael Matz <matz@kde.org>
+    Copyright (C) 2007-2009 Christoph Pfister <christophpfister@gmail.com>
 
-Copyright for playlistitem and subtitle file import code:
-   © 2004-2005 Giorgos Gousios <gousiosg@cs.man.ac.uk>
+Copyright for include/dmx.h file:
 
-Copyright for position slider:
-   © 2004-2005 Giorgos Gousios <gousiosg@cs.man.ac.uk>
-   © 2004-2005 Jürgen Kofler <kaffeine@gmx.net>
-   © 2004-2005 Miguel Freitas <miguel@cetuc.puc-rio.br>
+    Copyright (C) 2000 Marcus Metzler <marcus@convergence.de>
+                     & Ralph  Metzler <ralph@convergence.de>
+                       for convergence integrated media GmbH
 
-Copyriht for xine postprocessing filters wrapper:
-   © 2003-2005 Jürgen Kofler <kaffeine@gmx.net>
-   © 2003-2005 Miguel Freitas <miguel@cetuc.puc-rio.br>
+Copyright for include/frontend.h file:
 
-Copyright for googlefetcher code:
-   © 2004 Nathan Toone <nathan@toonetown.com>
-   © 2006 Christophe Thommeret <hftom@free.fr>
+    Copyright (C) 2000 Marcus Metzler <marcus@convergence.de>
+                       Ralph  Metzler <ralph@convergence.de>
+                       Holger Waechtler <holger@convergence.de>
+                       Andre Draszik <ad@convergence.de>
+                       for convergence integrated media GmbH
 
-Copyright for xine post plugin handling:
-   © 2004-2005 Miguel Freitas <miguel@cetuc.puc-rio.br>
+Copyright for icons/* files:
 
-Copyright for ca_zap:
-   © 2004-2005 Manu Abraham <manu@kromtek.com>
-   © 2006 Andrew de Quincey <adq_dvb@lidskialf.net>
+    Copyright (C) 2007 The Oxygen Team
 
-Copyright for libdvbfe:
-   © 2005 Manu Abraham <manu@kromtek.com>
-   © 2005 Andrew de Quincey <adq_dvb@lidskialf.net>
-   © 2005 Kenneth Aafloy <kenneth@linuxtv.org>
+Kaffeine is licensed under GPL-2 or any later version:
 
-Copyright for libdvbca:
-   © 2006 Andrew de Quincey <adq_dvb@lidskialf.net>
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
 
-Copyright for libdvbdemux:
-   © 2005 Andrew de Quincey <adq_dvb@lidskialf.net>
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-Copyright for libdvbnet:
-   © 2005 Andrew de Quincey <adq_dvb@lidskialf.net>
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
 
-Copyright for libdvben50221:
-   © 2004-2005 Manu Abraham <manu@kromtek.com>
-   © 2006 Andrew de Quincey <adq_dvb@lidskialf.net>
+On Debian systems, the complete text of the GNU General
+Public License version 2 can be found in:
+    `/usr/share/common-licenses/GPL-2'
+    `/usr/share/common-licenses/GPL-3'
 
-Copyright for en50221 encoder:
-   © 2004-2005 Manu Abraham <manu@kromtek.com>
-   © 2005 Julian Scheel <julian@jusst.de>
-   © 2006 Andrew de Quincey <adq_dvb@lidskialf.net>
+Kaffeine include files are licensed under LGPL-2.1 or any later version:
 
-Copyright for libdvbmisc:
-   © 2005 Manu Abraham <manu@kromtek.com>
-
-Copyright for crc32 calculation routines:
-   © 2005 by Andrew de Quincey <adq_dvb@lidskialf.net>
-
-Copyright for libucsi (section and descriptor parser):
-   © 2005 Kenneth Aafloy <kenneth@linuxtv.org>
-   © 2005 Andrew de Quincey <adq_dvb@lidskialf.net>
-   © 2005 Patrick Boettcher <pb@linuxtv.org>
-
-Copyright for logo animation licensed under LGPL:
-   © Dieter Zander
-
-Copyright for all coffee bean icons licensed under LGPL:
-   © 2003-2004 Jürgen Kofler <kaffeine@gmx.net>
-
-Copyright for record icons, taken from nuvola icon set licensed under LGPL:
-   © by David Vignoni
-
-Copyright for dvbcam:
-   © 2006 by Christoph Pfister <christophpfister@gmail.com>
-
-dvbcam code is based on ca_zap licensed under LGPL:
-
-    This library is free software; you can redistribute it and/or
+    This package is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
     License as published by the Free Software Foundation; either
     version 2.1 of the License, or (at your option) any later version.
 
-    This library is distributed in the hope that it will be useful,
+    This package is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-    Lesser General Public License for more details.
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
     You should have received a copy of the GNU Lesser General Public
-    License along with this library; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+    License along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
 
 On Debian systems, the complete text of the GNU Lesser General
-Public License can be found in `/usr/share/common-licenses/LGPL'.
+Public License version 2.1 or any later version can be found in:
+    `/usr/share/common-licenses/LGPL-2.1'
+    `/usr/share/common-licenses/LGPL-3'
 
-Kaffeine is licensed under GPL-2:
+Kaffeine icons are licensed under Creative Common Attribution-ShareAlike 3.0
+or LGPL2+:
 
-   This package is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation; either version 2 of the License, or
-   (at your option) any later version.
+    All icons are copied & hacked from oxygen
+    Creative Common Attribution-ShareAlike 3.0 or LGPL2+ (+ clarification)
 
-   This package is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
+On Debian systems, the complete text of the GNU Lesser General
+Public License version 2 or any later version can be found in:
+    `/usr/share/common-licenses/LGPL-2'
+    `/usr/share/common-licenses/LGPL-2.1'
+    `/usr/share/common-licenses/LGPL-3'
 
-   You should have received a copy of the GNU General Public License
-   along with this package; if not, write to the Free Software
-   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+The Debian packaging is:
 
-On Debian systems, the complete text of the GNU General
-Public License can be found in `/usr/share/common-licenses/GPL-2'.
+    Copyright (C) 2009 Fathi Boudra <fabo@debian.org>
 
-The documentations provided with kaffeine is distributed under
-the GNU Free Documentation License (FDL). They are considered free with
-regards to the Debian Free Software Guidelines (DFSG) because they don't
-contain any unmodifiable parts (invariant sections).
-
-On Debian systems, the complete text of the GNU Free Documentation
-License can be found in `/usr/share/common-licenses/GFDL'.
-
+and is licensed under the GPL version 2 or any later version, 
+see above.

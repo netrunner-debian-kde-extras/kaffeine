@@ -1,24 +1,22 @@
 Source: kaffeine
-Section: kde
+Section: video
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Mark Purcell <msp@debian.org>
-Build-Depends: cdbs, debhelper (>= 5), quilt, automake1.9, kdelibs4-dev,
- libcdparanoia0-dev, libogg-dev, libxine-dev (>= 1.1.9), libxcb1-dev,
- libxtst-dev
-Standards-Version: 3.8.0
-Homepage: http://kaffeine.sourceforge.net
+Build-Depends: debhelper (>= 7.3), cmake, pkg-kde-tools (>= 0.4.11),
+ kdelibs5-dev (>= 4:4.3.0)
+Standards-Version: 3.8.2
+Homepage: http://kaffeine.kde.org
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/kde-extras/kaffeine/trunk
 Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/kaffeine/trunk
 
 Package: kaffeine
 Architecture: any
-Depends: ${shlibs:Depends}, libxine1-ffmpeg, libxine1-x, hdparm [linux-any]
-Conflicts: kaffeine-xine, kaffeine-gstreamer
-Replaces: kaffeine-xine, kaffeine-gstreamer
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ phonon-backend-xine, libxine1-ffmpeg, libxine1-x
 Description: versatile media player for KDE
- Kaffeine is a media player for KDE. While it supports multiple player
- engines, its default engine is Xine, giving Kaffeine a wide variety of
+ Kaffeine is a media player for KDE. While It supports multiple Phonon
+ backends, its default backend is Xine, giving Kaffeine a wide variety of
  supported media types and letting Kaffeine access CDs, DVDs, and
  network streams easily.
  .
@@ -26,10 +24,10 @@ Description: versatile media player for KDE
  autoloading of subtitles files for use while playing video.
 
 Package: kaffeine-dbg
-Section: devel
+Section: debug
 Architecture: any
 Priority: extra
-Depends: kaffeine (= ${binary:Version}), kdelibs-dbg
+Depends: ${misc:Depends}, kaffeine (= ${binary:Version}), kdelibs5-dbg
 Description: debugging symbols for kaffeine
  This package contains the debugging symbols associated with kaffeine.
  They will automatically be used by gdb for debugging kaffeine-related
