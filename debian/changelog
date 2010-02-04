@@ -1,6 +1,6 @@
 kaffeine (1.0~pre3-1) experimental; urgency=low
 
-  * New upstream version.
+  * New upstream version with optional dvb support (Closes: #566911) 
   * Added myself as uploader. 
   * Bumped Standards-Version, no changes needed.
 
