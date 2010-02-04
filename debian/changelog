@@ -1,3 +1,10 @@
+kaffeine (1.0~pre3-1) experimental; urgency=low
+
+  * New upstream version.
+  * Added myself as uploader. 
+
+ -- Michael Meskes <meskes@debian.org>  Thu, 04 Feb 2010 12:24:19 +0100
+
 kaffeine (1.0~pre2-1) experimental; urgency=low
 
   * New upstream release (KDE 4 version).
