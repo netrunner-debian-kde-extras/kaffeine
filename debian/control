@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Mark Purcell <msp@debian.org>, Michael Meskes <meskes@debian.org>
 Build-Depends: debhelper (>= 7.3), cmake, pkg-kde-tools (>= 0.4.11),
- kdelibs5-dev (>= 4:4.3.0)
+ kdelibs5-dev (>= 4:4.3.0), libxine-dev, libx11-dev
 Standards-Version: 3.8.2
 Homepage: http://kaffeine.kde.org
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/kde-extras/kaffeine/trunk
@@ -13,7 +13,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/kaffeine/trunk
 Package: kaffeine
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
- phonon-backend-xine, libxine1-ffmpeg, libxine1-x
+ libxine1-ffmpeg, libxine1-x, libqt4-sql-sqlite
 Description: versatile media player for KDE
  Kaffeine is a media player for KDE. While It supports multiple Phonon
  backends, its default backend is Xine, giving Kaffeine a wide variety of
