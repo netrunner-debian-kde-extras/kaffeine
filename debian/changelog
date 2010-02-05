@@ -1,10 +1,26 @@
 kaffeine (1.0~pre3-1) experimental; urgency=low
 
-  * New upstream version with optional dvb support (Closes: #566911) 
-  * Added myself as uploader. 
-  * Bumped Standards-Version, no changes needed.
+  * New upstream release:
+    - optional dvb support. (Closes: #566911)
 
- -- Michael Meskes <meskes@debian.org>  Thu, 04 Feb 2010 12:24:19 +0100
+  [ Fathi Boudra ]
+  * Switch to dpkg-source 3.0 (quilt) format.
+  * Update debian/control: bump debhelper and pkg-kde-tools build dependencies.
+  * Update debian/copyright: update years.
+  * Update debian/kaffeine.install file.
+  * Update debian/rules:
+    - Enable parallel build (pass --parallel option to dh).
+    - List missing files (pass --list-missing option to dh).
+    - Use kde sequence addon (pass --with kde option to dh).
+
+  [ Michael Meskes ]
+  * Update debian/control:
+    - Add myself as uploader.
+    - Add libxine-dev and libx11-dev build dependencies.
+    - Add libqt4-sql-sqlite dependency.
+    - Bump Standards-Version to 3.8.4 (no changes needed).
+
+ -- Fathi Boudra <fabo@debian.org>  Thu, 04 Feb 2010 12:24:19 +0100
 
 kaffeine (1.0~pre2-1) experimental; urgency=low
 

@@ -1,8 +1,6 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/makefiles/1/debhelper/kde.mk
-
 %:
-	dh --dbg-package=kaffeine-dbg $@
+	dh --parallel --list-missing --dbg-package=kaffeine-dbg --with kde $@
 
 .PHONY: override_dh_auto_test
