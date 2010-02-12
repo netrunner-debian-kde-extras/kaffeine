@@ -1,3 +1,10 @@
+kaffeine (1.0~pre3-2) experimental; urgency=low
+
+  * Do not try to install optional dvb files if they are not available.
+    (Closes: #566911)
+
+ -- Michael Meskes <meskes@debian.org>  Fri, 12 Feb 2010 09:28:53 +0100
+
 kaffeine (1.0~pre3-1) experimental; urgency=low
 
   * New upstream release:
