@@ -14,6 +14,7 @@ Package: kaffeine
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
  libxine1-ffmpeg, libxine1-x, libqt4-sql-sqlite
+Suggests: libdvdcss2
 Description: versatile media player for KDE
  Kaffeine is a media player for KDE. While It supports multiple Phonon
  backends, its default backend is Xine, giving Kaffeine a wide variety of

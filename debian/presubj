@@ -6,5 +6,6 @@ http://kaffeine.kde.org/?q=bugs).
 If you feel that the bug is one that other Debian users should
 know about then you are welcome to file a report in the Debian BTS
 as well.  Please keep in mind, however, that managing bug reports
-is part of the maintainers' workload.
+is part of the maintainers' workload and this package currently has
+a large number of outstanding reports in the BTS.
 
