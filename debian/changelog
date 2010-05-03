@@ -1,8 +1,10 @@
 kaffeine (1.0~pre3-3) UNRELEASED; urgency=low
 
   * debian/watch: uversionmangle=s/-pre/~pre/
+  * Add debian/presubj to direct bug reports upstream
+    - mitigation against large number of outstanding bugs in BTS
 
- -- Mark Purcell <msp@debian.org>  Mon, 03 May 2010 20:43:24 +1000
+ -- Mark Purcell <msp@debian.org>  Mon, 03 May 2010 20:55:44 +1000
 
 kaffeine (1.0~pre3-2) experimental; urgency=low
 

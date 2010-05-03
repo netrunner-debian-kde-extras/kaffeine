@@ -1,4 +1,5 @@
 debian/kaffeine.xpm /usr/share/pixmaps
+debian/presubj /usr/share/bug/kaffeine/
 usr/bin/kaffeine
 usr/bin/kaffeine-xbu
 usr/share/applications/kde4/kaffeine.desktop
