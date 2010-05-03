@@ -1,3 +1,9 @@
+kaffeine (1.0~pre3-3) UNRELEASED; urgency=low
+
+  * debian/watch: uversionmangle=s/-pre/~pre/
+
+ -- Mark Purcell <msp@debian.org>  Mon, 03 May 2010 20:43:24 +1000
+
 kaffeine (1.0~pre3-2) experimental; urgency=low
 
   * Do not try to install optional dvb files if they are not available.

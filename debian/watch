@@ -1,2 +1,4 @@
 version=3
-http://sf.net/kaffeine/kaffeine-([\d.].[\d.].[\d])\.tar\.bz2 debian svn-upgrade
+
+opts=uversionmangle=s/-pre/~pre/ \
+ http://sf.net/kaffeine/kaffeine-(.*)\.tar\.gz debian svn-upgrade
