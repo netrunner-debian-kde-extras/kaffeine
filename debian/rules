@@ -1,7 +1,10 @@
 #!/usr/bin/make -f
 
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
 %:
-	dh --parallel --list-missing --dbg-package=kaffeine-dbg --with kde $@
+	dh $@ --parallel --dbg-package=kaffeine-dbg --list-missing --with kde
 
 override_dh_install:
 	if [ -f debian/tmp/usr/lib/kde4/kaffeinedvb.so ]; then mv debian/tmp/usr/lib/kde4/kaffeinedvb.so debian/kaffeine/usr/lib/kde4; fi

@@ -3,14 +3,8 @@ debian/presubj /usr/share/bug/kaffeine/
 usr/bin/kaffeine
 usr/bin/kaffeine-xbu
 usr/share/applications/kde4/kaffeine.desktop
-usr/share/icons/oxygen/16x16/actions/audio-radio-encrypted.png
-usr/share/icons/oxygen/16x16/actions/video-television-encrypted.png
-usr/share/icons/oxygen/22x22/actions/audio-radio-encrypted.png
-usr/share/icons/oxygen/22x22/actions/video-television-encrypted.png
-usr/share/icons/oxygen/32x32/actions/audio-radio-encrypted.png
-usr/share/icons/oxygen/32x32/actions/video-television-encrypted.png
-usr/share/icons/oxygen/48x48/actions/audio-radio-encrypted.png
-usr/share/icons/oxygen/48x48/actions/video-television-encrypted.png
+usr/share/icons/oxygen/*/actions/audio-radio-encrypted.png
+usr/share/icons/oxygen/*/actions/video-television-encrypted.png
 usr/share/kde4/apps/solid/actions/kaffeine_play_audiocd.desktop
 usr/share/kde4/apps/solid/actions/kaffeine_play_dvd.desktop
 usr/share/kde4/apps/solid/actions/kaffeine_play_videocd.desktop
