@@ -4,6 +4,9 @@ kaffeine (1.0-1) unstable; urgency=low
   * Update debian/control:
     - bump build depencies (debhelper, pkg-kde-tools, kdelibs5-dev).
     - add libxss-dev build dependency.
+  * Update installed files.
+  * Remove debian/dirs and cleanup debian/rules: kaffeinsdvb.so library file
+    isn't shipped anymore. Thanks Christophe ;)
 
  -- Fathi Boudra <fabo@debian.org>  Wed, 02 Jun 2010 09:16:51 +0300
 

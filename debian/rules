@@ -6,9 +6,4 @@
 %:
 	dh $@ --parallel --dbg-package=kaffeine-dbg --list-missing --with kde
 
-override_dh_install:
-	if [ -f debian/tmp/usr/lib/kde4/kaffeinedvb.so ]; then mv debian/tmp/usr/lib/kde4/kaffeinedvb.so debian/kaffeine/usr/lib/kde4; fi
-	if [ -f debian/tmp/usr/share/kde4/apps/kaffeine/scanfile.dvb ]; then mv debian/tmp/usr/share/kde4/apps/kaffeine/scanfile.dvb debian/kaffeine/usr/share/kde4/apps/kaffeine; fi
-	dh_install
-
 .PHONY: override_dh_auto_test
