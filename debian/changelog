@@ -1,3 +1,11 @@
+kaffeine (1.1-1) experimental; urgency=low
+
+  * New upstream release
+    - .m2t is assigned to kaffeine again (Closes: #596671)
+  * Upload to experimental while we await squeeze
+
+ -- Mark Purcell <msp@debian.org>  Sat, 25 Sep 2010 08:45:50 +1000
+
 kaffeine (1.0-1) unstable; urgency=low
 
   * New upstream release.
