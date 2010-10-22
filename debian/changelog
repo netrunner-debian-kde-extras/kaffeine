@@ -1,3 +1,9 @@
+kaffeine (1.1-2) UNRELEASED; urgency=low
+
+  * Fixed "Please add HAL to Recommends"  (Closes: #600970)
+
+ -- Mark Purcell <msp@debian.org>  Fri, 22 Oct 2010 18:43:44 +1100
+
 kaffeine (1.1-1) experimental; urgency=low
 
   * New upstream release
