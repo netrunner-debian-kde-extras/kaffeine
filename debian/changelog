@@ -1,5 +1,6 @@
 kaffeine (1.2.2-2) UNRELEASED; urgency=low
 
+   * Add ftbfs_gcc47.diff, avoids an FTBFS with GCC 4.7 (Closes: #667218)
    * Update Vcs-* fields, kaffeine packaging was just moved to git.
    * Bump Standards-Version to 3.9.3, no changes needed.
 
