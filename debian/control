@@ -16,20 +16,20 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
  libxine1-ffmpeg, libxine1-x, libqt4-sql-sqlite
 Suggests: libdvdcss2
 Description: versatile media player for KDE
- Kaffeine is a media player for KDE. While It supports multiple Phonon
+ Kaffeine is a media player for KDE. While it supports multiple Phonon
  backends, its default backend is Xine, giving Kaffeine a wide variety of
  supported media types and letting Kaffeine access CDs, DVDs, and
  network streams easily.
  .
  Kaffeine can keep track of multiple playlists simultaneously, and supports
- autoloading of subtitles files for use while playing video.
+ autoloading of subtitle files for use while playing video.
 
 Package: kaffeine-dbg
 Section: debug
 Architecture: any
 Priority: extra
 Depends: ${misc:Depends}, kaffeine (= ${binary:Version}), kdelibs5-dbg
-Description: debugging symbols for kaffeine
- This package contains the debugging symbols associated with kaffeine.
- They will automatically be used by gdb for debugging kaffeine-related
+Description: debugging symbols for Kaffeine
+ This package contains the debugging symbols associated with Kaffeine.
+ They will automatically be used by gdb for debugging Kaffeine-related
  issues.
