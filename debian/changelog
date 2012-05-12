@@ -1,8 +1,9 @@
 kaffeine (1.2.2-2) UNRELEASED; urgency=low
 
-   * Add ftbfs_gcc47.diff, avoids an FTBFS with GCC 4.7 (Closes: #667218)
-   * Update Vcs-* fields, kaffeine packaging was just moved to git.
-   * Bump Standards-Version to 3.9.3, no changes needed.
+  [ José Manuel Santamaría Lema ]
+  * Add ftbfs_gcc47.diff, avoids an FTBFS with GCC 4.7 (Closes: #667218)
+  * Update Vcs-* fields, kaffeine packaging was just moved to git.
+  * Bump Standards-Version to 3.9.3, no changes needed.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sat, 12 May 2012 22:18:58 +0200
 
