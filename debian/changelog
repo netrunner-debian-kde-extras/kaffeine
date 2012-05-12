@@ -5,6 +5,8 @@ kaffeine (1.2.2-2) UNRELEASED; urgency=low
   * Amend package descriptions. (Closes: #627900)
   * Update Vcs-* fields, kaffeine packaging was just moved to git.
   * Bump Standards-Version to 3.9.3, no changes needed.
+  * After rebuilding the kaffeine binary package it will depend on kde-runtime
+    instead of kdebase-runtime. (Closes: #664720)
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sat, 12 May 2012 22:18:58 +0200
 
