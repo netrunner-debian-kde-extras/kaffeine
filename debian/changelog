@@ -1,5 +1,6 @@
 kaffeine (1.2.2-2) UNRELEASED; urgency=low
 
+   * Bump Standards-Version to 3.9.3, no changes needed.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sat, 12 May 2012 22:18:58 +0200
 

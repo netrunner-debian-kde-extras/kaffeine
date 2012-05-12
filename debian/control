@@ -5,7 +5,7 @@ Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Mark Purcell <msp@debian.org>, Michael Meskes <meskes@debian.org>
 Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.9.0),
  kdelibs5-dev (>= 4:4.4.4), libxine-dev, libx11-dev, libxss-dev
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://kaffeine.kde.org
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/kde-extras/kaffeine/trunk
 Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/kaffeine/trunk
