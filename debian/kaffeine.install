@@ -3,6 +3,8 @@ debian/presubj /usr/share/bug/kaffeine/
 usr/bin/kaffeine
 usr/bin/kaffeine-xbu
 usr/share/applications/kde4/kaffeine.desktop
+usr/share/icons/hicolor/*/apps/kaffeine.png
+usr/share/icons/hicolor/scalable/apps/kaffeine.svgz
 usr/share/icons/oxygen/*/actions/audio-radio-encrypted.png
 usr/share/icons/oxygen/*/actions/video-television-encrypted.png
 usr/share/kde4/apps/kaffeine/scanfile.dvb

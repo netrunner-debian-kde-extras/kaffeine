@@ -1,3 +1,9 @@
+kaffeine (1.2.2-1) unstable; urgency=low
+
+  * New upstream release/
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 01 May 2011 11:55:48 +0300
+
 kaffeine (1.1-2) unstable; urgency=low
 
   * Upload to Sid.
