@@ -2,6 +2,7 @@ kaffeine (1.2.2-2) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Add ftbfs_gcc47.diff, avoids an FTBFS with GCC 4.7 (Closes: #667218)
+  * Update xine-lib dependencies. (Closes: #656915)
   * Amend package descriptions. (Closes: #627900)
   * Update Vcs-* fields, kaffeine packaging was just moved to git.
   * Bump Standards-Version to 3.9.3, no changes needed.

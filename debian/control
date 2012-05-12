@@ -13,7 +13,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/kaffeine.git
 Package: kaffeine
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
- libxine1-ffmpeg, libxine1-x, libqt4-sql-sqlite
+ ${xine-ffmpeg:Depends}, ${xine-x:Depends}, libqt4-sql-sqlite
 Suggests: libdvdcss2
 Description: versatile media player for KDE
  Kaffeine is a media player for KDE. While it supports multiple Phonon

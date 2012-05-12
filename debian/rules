@@ -4,6 +4,9 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@ --parallel --dbg-package=kaffeine-dbg --list-missing --with kde
+	dh $@ --parallel --dbg-package=kaffeine-dbg --list-missing --with kde --with xine
+
+override_dh_xine:
+	dh_xine -pkaffeine x ffmpeg
 
 .PHONY: override_dh_auto_test
