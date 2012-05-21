@@ -1,6 +1,6 @@
-kaffeine (1.2.2-2) UNRELEASED; urgency=low
+kaffeine (1.2.2-2) unstable; urgency=low
 
-  [ José Manuel Santamaría Lema ]
+  * Team upload.
   * Add ftbfs_gcc47.diff, avoids an FTBFS with GCC 4.7 (Closes: #667218)
   * Update xine-lib dependencies. (Closes: #656915)
   * Bump debhelper compatibility level to 9.
@@ -10,7 +10,7 @@ kaffeine (1.2.2-2) UNRELEASED; urgency=low
   * After rebuilding the kaffeine binary package it will depend on kde-runtime
     instead of kdebase-runtime. (Closes: #664720)
 
- -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sat, 12 May 2012 22:18:58 +0200
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 19 May 2012 11:59:55 +0200
 
 kaffeine (1.2.2-1) unstable; urgency=low
 
