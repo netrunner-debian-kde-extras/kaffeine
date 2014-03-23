@@ -1,3 +1,7 @@
+kaffeine (1.2.2-3) UNRELEASED; urgency=medium
+
+ -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sat, 22 Mar 2014 22:07:33 -0300
+
 kaffeine (1.2.2-2) unstable; urgency=low
 
   * Team upload.
