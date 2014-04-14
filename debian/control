@@ -2,16 +2,9 @@ Source: kaffeine
 Section: video
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>,
-           Mark Purcell <msp@debian.org>,
-           Michael Meskes <meskes@debian.org>
-Build-Depends: cmake,
-               debhelper (>= 9),
-               kdelibs5-dev (>= 4:4.4.4),
-               libx11-dev,
-               libxine-dev,
-               libxss-dev,
-               pkg-kde-tools (>= 0.9.0)
+Uploaders: Fathi Boudra <fabo@debian.org>, Mark Purcell <msp@debian.org>, Michael Meskes <meskes@debian.org>
+Build-Depends: debhelper (>= 9), cmake, pkg-kde-tools (>= 0.9.0),
+ kdelibs5-dev (>= 4:4.4.4), libxine2-dev, libx11-dev, libxss-dev
 Standards-Version: 3.9.3
 Homepage: http://kaffeine.kde.org
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/kaffeine.git
@@ -19,11 +12,8 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/kaffeine.git
 
 Package: kaffeine
 Architecture: any
-Depends: libqt4-sql-sqlite,
-         ${misc:Depends},
-         ${shlibs:Depends},
-         ${xine-ffmpeg:Depends},
-         ${xine-x:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ ${xine-ffmpeg:Depends}, ${xine-x:Depends}, libqt4-sql-sqlite
 Suggests: libdvdcss2
 Description: versatile media player for KDE
  Kaffeine is a media player for KDE. While it supports multiple Phonon
@@ -38,7 +28,7 @@ Package: kaffeine-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kaffeine (= ${binary:Version}), kdelibs5-dbg, ${misc:Depends}
+Depends: ${misc:Depends}, kaffeine (= ${binary:Version}), kdelibs5-dbg
 Description: debugging symbols for Kaffeine
  This package contains the debugging symbols associated with Kaffeine.
  They will automatically be used by gdb for debugging Kaffeine-related
